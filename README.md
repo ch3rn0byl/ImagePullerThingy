@@ -2,7 +2,7 @@
 
 Ran into obfuscated drivers, which is a pain in the dick to deal with. Instead, got the idea of yanking it from memory to atleast get an idea of what's going on. It works for the most part. 
 
-For example, this particular driver comes out as garbage and seems like a nightmare:
+For example, this particular driver comes out as garbage and seems like a nightmare:    
 ![aksfridge](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/wtf.PNG)
 
 When I run the script inside the debugger, I get the following output:
@@ -16,19 +16,19 @@ Done!
 ```
 ---
 
-Then when I put the dumped binary into Ida, I get this:
+Then when I put the dumped binary into Ida, I get this:    
 
 ![output](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/fml.PNG)
 
 ---
 
-These two files compared is slightly different in size. I need to figure out how to fix up the sizing:
+These two files compared is slightly different in size. I need to figure out how to fix up the sizing:    
 
 ![comparison](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/comp.PNG)
 
 ---
 
-Buuuut does it work?? I'm pretty sure it does for the most part. The sizes of the files can get worked on to put the mind at ease. Some other work can be put into the copy probably. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
+Buuuut does it work?? I'm pretty sure it does for the most part. The sizes of the files can get worked on to put the mind at ease. Some other work can be put into the copy probably. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:    
 
 ![sick](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/sick.png)
 
