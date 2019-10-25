@@ -13,17 +13,24 @@ Modue Base Address: 0xfffff800555c0000
 Module Size: 0x26000
 Done!
 ```
+---
 
 Then when I put the dumped binary into Ida, I get this:
 ![output](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/fml.PNG)
 
+---
+
 These two files compared is slightly different in size. I need to figure out how to fix up the sizing:
 ![comparison](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/comp.PNG)
 
-But does it work?? I'm pretty sure it does. The sizes of the files can get worked on to put the mind at ease. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
-![sick](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/sick.png)
+---
 
-This is a work in progress! Cleaner code and arguments shall come. Right now, the path of the file is hardcoded and the driver name is also hard coded. Also, I hate javascript!
+But does it work?? I'm pretty sure it does. The sizes of the files can get worked on to put the mind at ease. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
+
+<img align="center" src="https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/sick.png">
+---
+
+Lastly, this is a work in progress! Cleaner code and arguments shall come. Right now, the path of the file is hardcoded and the driver name is also hard coded. Also, I hate javascript!
 
 ToDos:
   1. Clean up code, make it more efficient? Learn more JavaScript because this was horrible and took me longer than it should have.
