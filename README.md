@@ -17,7 +17,7 @@ Done!
 Then when I put the dumped binary into Ida, I get this:
 ![output](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/fml.PNG)
 
-These two files compared is slightly different. I need to figure out how to fix this up:
+These two files compared is slightly different in size. I need to figure out how to fix up the sizing:
 ![comparison](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/comp.PNG)
 
 But does it work?? I'm pretty sure it does. The sizes of the files can get worked on to put the mind at ease. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
