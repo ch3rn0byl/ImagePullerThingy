@@ -25,12 +25,12 @@ These two files compared is slightly different in size. I need to figure out how
 
 ---
 
-Buuuut does it work?? I'm pretty sure it does. The sizes of the files can get worked on to put the mind at ease. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
+Buuuut does it work?? I'm pretty sure it does for the most part. The sizes of the files can get worked on to put the mind at ease. Some other work can be put into the copy probably. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
 ![sick](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/sick.png)
 
 ---
 
-Lastly, this is a work in progress! Cleaner code and arguments shall come. Right now, the path of the file is hardcoded and the driver name is also hard coded. Also, I hate javascript!
+Again, this is a work in progress! Cleaner code and arguments shall come. Right now, the path of the file is hardcoded and the driver name is also hard coded. Also, I hate javascript!
 
 ToDos:
   1. Clean up code, make it more efficient? Learn more JavaScript because this was horrible and took me longer than it should have.
