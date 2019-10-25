@@ -3,6 +3,7 @@
 Ran into obfuscated drivers, which is a pain in the dick to deal with. Instead, got the idea of yanking it from memory to atleast get an idea of what's going on. It works for the most part. 
 
 For example, this particular driver comes out as garbage and seems like a nightmare:    
+
 ![aksfridge](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/wtf.PNG)
 
 When I run the script inside the debugger, I get the following output:
