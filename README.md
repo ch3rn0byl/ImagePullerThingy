@@ -25,9 +25,8 @@ These two files compared is slightly different in size. I need to figure out how
 
 ---
 
-But does it work?? I'm pretty sure it does. The sizes of the files can get worked on to put the mind at ease. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
-
-<img align="center" src="https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/sick.png">
+Buuuut does it work?? I'm pretty sure it does. The sizes of the files can get worked on to put the mind at ease. The output from the debugger is the same as what's shown in Ida in several places as you can see in the image below:
+![sick](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/sick.png)
 
 ---
 
