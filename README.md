@@ -32,7 +32,7 @@ Buuuut does it work?? I'm pretty sure it does for the most part. The sizes of th
 
 Again, this is a work in progress! Cleaner code and arguments shall come. Right now, the path of the file is hardcoded and the driver name is also hard coded. Also, I hate javascript!
 
-ToDos:
+# ToDos:
   1. Clean up code, make it more efficient? Learn more JavaScript because this was horrible and took me longer than it should have.
   2. Add arguments, etc.
   3. Figure out how to clean up the binary itself to make it more of a decent copy than rip, whatever
