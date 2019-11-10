@@ -75,6 +75,8 @@ The output from the debugger is the same as what's shown in Ida in several place
 
 ![sick](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/sick.png)
 
+The ImageBase can be fixed up that way it doesn't look gross inside IDA, but that's okay. I can always fix this to do that, or you can fix the ImageBase yourself when you get to it.
+
 ---
 
 # ToDos:
