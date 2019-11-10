@@ -1,5 +1,5 @@
 # Dump obfuscated modules
-This script was written to beat any driver where the source has been obfuscated. All this does is pulls it from memory so you can view it statically rather than a bunch of garbage. Sometimes it can dump it almost perfectly, sometimes you have to fix the image base, and sometimes you have to fix the iat and what not so your mileage may very if you use this.
+This script was written to beat any driver where the source has been obfuscated. All this does is pulls it from memory so you can view it statically rather than a bunch of garbage. Sometimes it can dump it almost perfectly, sometimes you have to fix the image base, and sometimes you have to fix the IAT and what not so your mileage may very if you use this. You can also do this yourself with a few commands, but this just makes it easier. The results whether you use this or those commands will still be the same.
 For example, aksfridge is an obfuscated driver and when viewed from IDA, it comes out as garbage and seems like a nightmare:    
 
 ![aksfridge](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/wtf.PNG)
