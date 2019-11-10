@@ -67,7 +67,7 @@ These two files compared is slightly different in size but that's okay because i
 
 ![comparison](https://github.com/ch3rn0byl/Driver-Puller-Thingy/blob/master/Images/comp.PNG)
 
-Reasons this can be is because theres data appended to the end or IMAGE_DIRECTORY_ENTRY_SECURITY has data which also adds to the size of the PE.
+The size is calculated by the highest PointerToRawData plus the SizeOfRawData. Some drivers, like this one, will be different in size because it will have data in IMAGE_DIRECTORY_ENTRY_SECURITY that will definitely add to the size of the PE. This will not impact what you see :)
 
 ---
 
