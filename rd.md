@@ -53,5 +53,5 @@ To unload the script:
 2: kd> .scriptunload C:\Users\ch3rn\Desktop\DumpModule.js
 JavaScript script unloaded from 'C:\Users\ch3rn\Desktop\DumpModule.js'
 ```
-Once this is done, there would be a new filename written to disk. In this case, it will be capcom_dumped_by_windbg.sys. If it was an obfuscated driver, you can now view it much easier in Ida and actually get an idea of what's going on. 
+Once this is done, there would be a new filename written to disk. In this case, it will be capcom_dumped_by_windbg.sys. If it was an obfuscated driver, you can now view it much easier in Ida and actually get an idea of what's going on.   
 Too Sick
